@@ -1,0 +1,48 @@
+.form-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.form-div form > input {
+  width: 450px;
+  padding: 20px 20px;
+  border: none;
+  border-bottom: 1.5px solid blueviolet;
+}
+.form-div form > input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid blueviolet;
+}
+.form-div form > input:active {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+.form-div form > button {
+  padding: 10px 10px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px 5px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.grocery-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.grocery-div ul > li {
+  list-style: none;
+}
+.sorting {
+  display: flex;
+  justify-content: center;
+}
+.sorting ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.error{
+  color: red;
+  text-align: center;
+}

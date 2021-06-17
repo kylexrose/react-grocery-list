@@ -1,0 +1,13 @@
+.header {
+    height: 250px;
+    width: 100%;
+    background-color: powderblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header h1 {
+    margin-top: 0px;
+    font-size: 95px;
+    color: white;
+  }
